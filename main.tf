@@ -8,4 +8,5 @@ resource "aws_instance" "nginx" {
   tags = {
       Name = "nginx"
   }
+}
 
