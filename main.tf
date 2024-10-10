@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "nginx" {
-  ami           = "ami-0edab43b6fa892279"
+  ami           = "ami-0866a3c8686eaeeba"
   instance_type = "t2.micro"
   tags = {
       Name = "nginx"
